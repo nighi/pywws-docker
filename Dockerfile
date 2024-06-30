@@ -22,6 +22,8 @@ RUN apk add --no-cache python3 \
     gcc \
     py3-cryptography \
     py3-paramiko \
+    libgd \
+    libgdata-dev \
     gnuplot \
     && update-ca-certificates
 
